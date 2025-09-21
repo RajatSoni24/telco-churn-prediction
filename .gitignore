@@ -45,6 +45,7 @@ ENV/
 *.xls
 *.db
 *.sqlite3
+!models/churn_model.pkl
 
 # Environment variables
 .env
