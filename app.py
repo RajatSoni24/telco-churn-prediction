@@ -63,6 +63,10 @@ if page == "Make Prediction":
             internet_service = st.selectbox("Internet Service", ["DSL", "Fiber optic", "No"])
             online_security = st.selectbox("Online Security", ["No", "Yes", "No internet service"])
             online_backup = st.selectbox("Online Backup", ["No", "Yes", "No internet service"])
+            device_protection = st.selectbox("Device Protection", ["No", "Yes", "No internet service"])
+            tech_support = st.selectbox("Tech Support", ["No", "Yes", "No internet service"])
+            streaming_tv = st.selectbox("Streaming TV", ["No", "Yes", "No internet service"])
+            streaming_movies = st.selectbox("Streaming Movies", ["No", "Yes", "No internet service"])
             
             st.subheader("Account Information")
             contract = st.selectbox("Contract", ["Month-to-month", "One year", "Two year"])
@@ -90,10 +94,10 @@ if page == "Make Prediction":
             'InternetService': [internet_service],
             'OnlineSecurity': [online_security],
             'OnlineBackup': [online_backup],
-            'DeviceProtection': ["No"],  # Default value
-            'TechSupport': ["No"],  # Default value
-            'StreamingTV': ["No"],  # Default value
-            'StreamingMovies': ["No"],  # Default value
+            'DeviceProtection': [device_protection],
+            'TechSupport': [tech_support],
+            'StreamingTV': [streaming_tv],
+            'StreamingMovies': [streaming_movies],
             'Contract': [contract],
             'PaperlessBilling': [paperless_billing],
             'PaymentMethod': [payment_method],
