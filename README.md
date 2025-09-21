@@ -6,6 +6,12 @@
 
 A Streamlit web application for predicting customer churn in a telecommunications company. This application helps identify customers who are likely to churn, enabling proactive retention strategies.
 
+## 🌐 Live Demo
+
+🚀 **[Try the Live Application](https://telco-churn-prediction-bopelaetjypwzp3ckdjsz2.streamlit.app/)**
+
+The application is deployed and ready to use! Click the link above to start predicting customer churn.
+
 ## 🚀 Features
 
 - **📊 Interactive Dashboard**: User-friendly interface for churn prediction
